@@ -6,7 +6,24 @@ body{
 	font-size:1em;
 	text-align: justify;
 }
-
+header{
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+section{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+div{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    /*width: 650px;*/
+	/*height:500px;*/
+	float: left;
+}
 header p{
 	font-weight: bolder; 
 	margin:20px;
@@ -15,8 +32,8 @@ header p{
 }
 
 header a{
-		text-decoration: none;
-		padding-right: 10px;
+	text-decoration: none;
+	padding-right: 10px;
 }
 
 h1,h2,h3{
@@ -33,12 +50,7 @@ h2{
 	padding-left: 20px;
 	font-size: 1.75em;
 }
-div{
-	 width: 650px;
-	 height:500px;
-	 /*background: red;*/
-	 float: left;
-}
+
 p{
 	margin-top:30px;
 	padding-left: 25px;
@@ -46,11 +58,11 @@ p{
 h3{
 	font-size:1.5em;
 	padding-left: 25px;
-	margin-top: 275px;
+	/*margin-top: 275px;*/
 }
 #rightDiv img{
 	padding-left: 150px;
-	margin-top: -80px;
+	/*margin-top: -80px;*/
 }
 #rightDiv p{
 	margin-top: 20px;
