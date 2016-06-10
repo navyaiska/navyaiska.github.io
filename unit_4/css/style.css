@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body{
+	background: url("../images/congruent_pentagon.png");
+	background-position: center;*/
 	font-family: 'Open Sans', sans-serif;
 	font-size:1em;
 	text-align: justify;
