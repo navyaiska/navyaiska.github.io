@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	background: url("../images/congruent_pentagon.png");
+	/*background-position: center;*/
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	text-align: justify;
+}
+#wrapper{
+	width:1200px;
+	margin: 0 auto;
+}
+
+header nav{
+	font-weight: bolder; 
+	margin:20px;
+	padding:0 10px;
+	text-align: right;
+}
+
+header a{
+		text-decoration: none;
+		padding-right: 10px;
+}
+
+h1,h2,h3{
+	font-family: 'Playfair Display', serif;
+}
+h1{
+	font-size:5em;
+	color: #56A902;
+	margin-top: 20px;
+	padding: 0 0 0 18px;
+}
+h2{
+	margin-top: -50px;
+	padding-left: 20px;
+	font-size: 1.75em;
+}
+
+p{
+	margin-top:30px;
+	padding-left: 25px;
+}
+h3{
+	font-size:1.5em;
+	padding-left: 25px;
+	margin-top: 180px;
+}
+figure{
+	
+	/*padding-left: 50px;*/
+}
+
+#rightDiv p{
+	margin-top: 50px;
+	padding-left: 80px;
+}
+#rightDiv input[type=button]{
+	padding:15px;
+	font-size:1.5em;
+	/*background: #AACD6E;	*/
+	background: #56A902;
+	border-radius:20px;
+	border-color:black;
+	font-weight: bolder;
+}
+#rightDiv a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size:1.5em;
+}
+
+#two_column {
+    background-color: khaki;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#leftDiv {
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+#rightDiv {
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 32%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
